@@ -1,0 +1,7 @@
+[package]
+name = "tronracer"
+version = "0.1.0"
+authors = ["Sergey Pilyavskiy <pill.sv0@gmail.com>"]
+
+[dependencies]
+time = "*"
