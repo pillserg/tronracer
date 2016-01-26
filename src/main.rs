@@ -4,6 +4,7 @@ use std::thread;
 
 fn main_loop(){
     let CYCLES_PER_SECOND = 1;
+    let mut loop_cycle_num = 0;
     loop {
         println!("loop cycle: {}", loop_cycle_num); 
         loop_cycle_num += 1;
